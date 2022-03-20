@@ -107,12 +107,14 @@ ul.feature-items {
 .sign-up {
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 .sign-up_text_block {
     display: flex;
     flex-flow: column wrap;
     background-color: #3882F6;
+    padding: 50px;
 }
 
 .sign-up_main-text {
@@ -127,6 +129,9 @@ ul.feature-items {
 .btn_sign-up_block {
     display: flex;
     background-color: #3882F6;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn_sign-up {
@@ -135,6 +140,12 @@ ul.feature-items {
     color: white;
     width: 80px;
     height: 30px;
-    border: 4px;
     border-color: white;
+    border-style: solid;
+}
+
+/* Footer section */
+
+.footer {
+    text-align: center;
 }
