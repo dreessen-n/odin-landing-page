@@ -101,3 +101,40 @@ ul.feature-items {
     font-weight: lighter;
     font-style: italic;
 }
+
+/* Sign up section */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up_text_block {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #3882F6;
+}
+
+.sign-up_main-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up_secondary-text {
+    font-size: 14px;
+}
+
+.btn_sign-up_block {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.btn_sign-up {
+    flex: 1;
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: 4px;
+    border-color: white;
+}
