@@ -94,12 +94,19 @@ ul.feature-items {
 
 /* Quote section */
 
-.quote {
+.quote-container {
+    display: flex;
     background-color: #E5E7EB;
+}
+
+.quote-item {
+    flex: 1;
     color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    padding: 50px;
+    width: 500px;
 }
 
 /* Sign up section */
@@ -107,7 +114,7 @@ ul.feature-items {
 .sign-up {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 75px;
 }
 
 .sign-up_text_block {
@@ -148,4 +155,7 @@ ul.feature-items {
 
 .footer {
     text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
 }
