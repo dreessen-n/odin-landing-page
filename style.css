@@ -1,0 +1,71 @@
+/* Style sheet for Landing Page */
+
+
+
+/* Header-Menu */
+
+.header-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Header Block */
+
+.hero-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.sign-up-block {
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+}
+
+.hero-main-text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn_hero-sign-up {
+    flex: 1;
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.hero-block-image {
+    background-color: grey;
+    width: 500px;
+}
