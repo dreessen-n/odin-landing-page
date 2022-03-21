@@ -1,6 +1,9 @@
 /* Style sheet for Landing Page */
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 /* Header-Menu */
 
@@ -144,6 +147,7 @@ p.feature-item {
 .sign-up_text_block {
     display: flex;
     flex-flow: column wrap;
+    flex-shrink: 0;
     background-color: #3882F6;
     color: white;
     padding: 50px;
@@ -160,6 +164,7 @@ p.feature-item {
 
 .btn_sign-up_block {
     display: flex;
+    flex-shrink: 0;
     background-color: #3882F6;
     padding: 50px;
     justify-content: center;
