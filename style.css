@@ -11,11 +11,14 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    gap: 20px;
     background-color: #1F2937;
     padding: 20px 100px;
 }
 
 .header {
+    flex-shrink: 0;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #F9FAF8;
@@ -23,6 +26,8 @@ body {
 
 ul.menu {
     display: flex;
+    flex-shrink: 0;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
