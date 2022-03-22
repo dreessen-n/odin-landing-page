@@ -138,18 +138,26 @@ p.feature-item {
 
 .quote-container {
     display: flex;
+    flex-flow: column wrap;
     background-color: #E5E7EB;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
+    align-items: center;
 }
 
-.quote-item {
+p.quote {
     color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    width: 800px;
+    width: 900px;
+}
+
+p.quote-source {
+    text-align: end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 900px;
 }
 
 /* Sign up section */
