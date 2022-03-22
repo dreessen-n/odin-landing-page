@@ -107,15 +107,11 @@ li.menu {
     justify-content: center;
 }
 
-ul.feature-images {
-    display: flex;
-}
-
-li.feature-images {
+p.feature-images {
     display: flex;
     border-style: solid;
     border-color: #3882F6;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 10px;
     margin: 10px;
     width: 200px;
@@ -126,6 +122,7 @@ li.feature-images {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    margin: 0;
 }
 
 p.feature-item {
@@ -133,6 +130,7 @@ p.feature-item {
     font-size: 18px;
     color: grey;
     width: 200px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -142,6 +140,8 @@ p.feature-item {
     display: flex;
     background-color: #E5E7EB;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .quote-item {
