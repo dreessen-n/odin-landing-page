@@ -179,6 +179,10 @@ p.quote-source {
     background-color: #3882F6;
     color: white;
     padding: 50px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .sign-up_main-text {
@@ -197,6 +201,10 @@ p.quote-source {
     padding: 50px;
     justify-content: center;
     align-items: center;
+    border-style: solid;
+    border-color: #3882F6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .btn_sign-up {
