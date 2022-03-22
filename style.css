@@ -162,14 +162,14 @@ p.quote-source {
 
 /* Sign up section */
 
-.sign-up {
+.sign-up_section {
     display: flex;
     justify-content: center;
     padding: 75px;
     margin: 0;
 }
 
-.sign-up_text_block {
+.sign-up_text {
     display: flex;
     flex-flow: column wrap;
     flex-shrink: 0;
@@ -187,7 +187,7 @@ p.quote-source {
     font-size: 14px;
 }
 
-.btn_sign-up_block {
+.btn_sign-up_section {
     display: flex;
     flex-shrink: 0;
     background-color: #3882F6;
