@@ -130,7 +130,7 @@ p.feature-item {
     font-size: 18px;
     color: grey;
     width: 200px;
-    margin: 10px;
+    margin: 10px 10px 100px 10px;
     text-align: center;
 }
 
@@ -149,7 +149,7 @@ p.quote {
     font-style: italic;
     width: 900px;
     margin: 0;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 p.quote-source {
