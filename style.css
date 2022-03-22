@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-/* Header-Menu */
+/* Header-Menu Section */
 
 .header-menu {
     display: flex;
@@ -40,7 +40,7 @@ li.menu {
     color: #E5E7EB;
 }
 
-/* Header Block */
+/* Header Section */
 
 .hero-section {
     display: flex;
@@ -88,7 +88,7 @@ li.menu {
     color: white;
 }
 
-/* Feature section */
+/* Feature Section */
 
 .feature-section {
     display: flex;
@@ -163,7 +163,7 @@ p.quote-source {
     padding-bottom: 80px;
 }
 
-/* Sign up section */
+/* Sign Up Section */
 
 .sign-up_section {
     display: flex;
@@ -210,7 +210,7 @@ p.quote-source {
     border-radius: 10px;
 }
 
-/* Footer section */
+/* Footer Section */
 
 .footer {
     text-align: center;
