@@ -42,7 +42,7 @@ li.menu {
 
 /* Header Block */
 
-.hero-block {
+.hero-section {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -79,7 +79,7 @@ li.menu {
     height: 30px;
 }
 
-.hero-block-image {
+.hero-image {
     display: flex;
     background-color: grey;
     width: 800px;
