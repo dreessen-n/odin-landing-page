@@ -148,7 +148,7 @@ p.quote {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    width: 900px;
+    width: 800px;
     margin: 0;
     padding-top: 100px;
 }
@@ -158,9 +158,8 @@ p.quote-source {
     color: #1F2937;
     font-size: 24px;
     font-weight: bold;
-    width: 900px;
+    width: 700px;
     margin: 0;
-    padding-top: 20px;
     padding-bottom: 80px;
 }
 
