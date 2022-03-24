@@ -197,7 +197,6 @@ p.quote-source {
 
 .btn_sign-up_section {
     display: flex;
-    flex: 0 0 auto;
     background-color: #3882F6;
     padding: 50px;
     justify-content: center;
@@ -209,11 +208,9 @@ p.quote-source {
 }
 
 .btn_sign-up {
-    flex: 1;
     background-color: #3882F6;
     color: white;
     width: 80px;
-    height: 30px;
     border-color: white;
     border-style: solid;
     border-radius: 10px;
