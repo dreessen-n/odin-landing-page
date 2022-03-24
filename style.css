@@ -72,10 +72,11 @@ li.menu {
     flex: 1;
     background-color: #3882F6;
     color: white;
+    font-size: 18px;
     border-style: solid;
     border-color: #3882F6;
+    width: 120px;
     border-radius: 10px;
-    width: 100px;
     padding: 5px 15px;
 }
 
