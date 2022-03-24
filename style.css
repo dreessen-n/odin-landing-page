@@ -168,18 +168,18 @@ p.quote-source {
 .sign-up_section {
     display: flex;
     justify-content: center;
-    padding: 75px;
+    padding: 75px 100px;
     margin: 0;
 }
 
 .sign-up_text {
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
     flex-flow: column wrap;
     flex-shrink: 0;
     background-color: #3882F6;
     color: white;
-    padding: 50px;
+    padding: 50px 75px;
     border-style: solid;
     border-color: #3882F6;
     border-top-left-radius: 10px;
